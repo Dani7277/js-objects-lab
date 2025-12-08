@@ -26,3 +26,34 @@ body {
   border-radius: 8px;
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
 }
+/* Typography improvements */
+h1, h2 {
+  color: #222;
+  font-weight: 600;
+}
+
+p {
+  line-height: 1.6;
+  font-size: 1rem;
+}
+
+/* More spacing and cleaner layout */
+.lab-section h2 {
+  margin-top: 0;
+}
+
+.page-header p {
+  font-size: 1.1rem;
+  color: #555;
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+  body {
+    margin: 10px;
+  }
+
+  .lab-section {
+    padding: 12px 15px;
+  }
+}
